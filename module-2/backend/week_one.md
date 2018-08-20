@@ -72,16 +72,19 @@ rake db:migrate
 19. What is the difference between `#new` and `#create`?
 Create will save the new instance
 
-20. Given a table named `animals`, What is the SQL query that will return all info from that table?
+20. Given a table named `animals`, What is the SQL query that will return all info from that table?<br>
+
+
+    SELECT * FROM animals;
+
     `id     name        number_of_legs
     -----   ------      --------------
       1     panda       4
       2     giraffe     4
       3     whale       0
       4     bird        2
-    `SELECT * FROM animals;
 
-21. Using the same table, What is the SQL query that will return only the animals that has 4 legs?
+21. Using the same table, What is the SQL query that will return only the animals that has 4 legs?<br>
 SELECT * FROM animals WHERE number_of_legs = 4;
 
 
