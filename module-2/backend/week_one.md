@@ -117,5 +117,5 @@ Choose One: (erase the others)
 
 Choose One:
 * I feel comfortable with the content presented this week
-* I feel overwhelmed by the content presented this week
+* I feel overwhelmed by the content presented this week<br>
 Both?
